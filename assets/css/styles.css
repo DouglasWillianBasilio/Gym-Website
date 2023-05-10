@@ -522,7 +522,37 @@ img {
 }
 
 /*=============== PRICING ===============*/
+.pricing__container{
+  grid-template-columns: 285px;
+  justify-content: center;
+  row-gap: 2rem;
+}
 
+.pricing__card,
+.princing__shape,
+.pricing__list{
+  display: grid;
+}
+
+.pricing__card{
+  row-gap: 2rem;
+  background-color: hsla(79, 6%, 64%, .07);
+  padding: 2rem 2.5rem;
+}
+
+.pricing__img{
+  width: 35px;
+}
+
+.pricing__shape{
+  width: 50px;
+  height: 50px;
+  background-color: var(--first-color-gray);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1rem;
+}
 
 /*=============== CALCULATE ===============*/
 
